@@ -277,23 +277,16 @@ export default {
 	}
 
 	input[type=checkbox] {
-		position: absolute;
 		margin-top: 6px;
 		width: 30px;
 		height: 21px;
 	}
 	.checkbox {
-		position: relative;
-		display: flex;
-		flex-wrap: wrap;
-		min-width: 140px;
+		display: block;
 	}
 	.checkbox-label {
-		position: absolute;
-		min-width: 150px;
 		color: white;
-		bottom: 11px;
-		left: 35px;
+		margin-top: 8px;
 	}
 	.search-btn {
 		min-width: 130px!important;
